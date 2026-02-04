@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(120deg,#FDE2E4,#E2F0CB);
+  min-height: 100vh;
+}
+
+/* ทำให้ card มี hover */
+div:hover {
+  transform: scale(1.02);
+}
