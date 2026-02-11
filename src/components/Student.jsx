@@ -2,23 +2,30 @@ import BB from "../image/bb.jpg";
 
 function Student(props) {
 
-  const cardStyle = {
-    textAlign: "center",
-    background: "#ffffff",
-    padding: "30px",
-    width: "320px",
-    margin: "50px auto",
-    borderRadius: "18px",
-    boxShadow: "0 4px 15px rgba(0,0,0,0.08)"
-  };
+const cardStyle = {
+  textAlign: "center",
+  background: "#ffffff",
+  padding: "30px",
+  width: "320px",
+  margin: "50px auto",
+  borderRadius: "18px",
+
+  boxShadow: `
+    0 8px 20px rgba(0,0,0,0.15),
+    0 2px 6px rgba(0,0,0,0.1)
+  `,
+
+  transition: "0.3s ease"
+};
+
 
   const imgStyle = {
     width: "180px",        
     height: "180px",
     objectFit: "cover",
-    borderRadius: "50%",
+    borderRadius: "100%",
     marginBottom: "20px",
-    border: "3px solid #e0e0e0"
+    border: "3px solid #000000"
   };
 
   return (
