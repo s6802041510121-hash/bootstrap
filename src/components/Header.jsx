@@ -39,6 +39,7 @@ const Header = () => {
         <Link to="/" style={navButton} className="btn3d">Home</Link>
         <Link to="/edu" style={navButton} className="btn3d">Education</Link>
         <Link to="/act" style={navButton} className="btn3d">Activities</Link>
+        <Link to="/form" style={navButton} className="btn3d">Form</Link>
       </div>
 
     </div>

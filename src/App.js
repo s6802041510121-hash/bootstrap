@@ -5,6 +5,8 @@ import Student from "./components/Student";
 import Education from "./components/Education";
 import Activity from "./components/Activity";
 import PageNotFound from "./components/PageNotFound";
+import ClickEvent from "./components/ClickEvent";
+import TCTForm from "./components/TCTForm";
 
 function App() {
 
@@ -24,6 +26,8 @@ function App() {
           <Route path="/" element={<Student stdInfo={std1} />} />
           <Route path='/edu' element={<Education />} />
           <Route path='/act' element={<Activity />} />
+          <Route path='/event' element={<ClickEvent />} />
+          <Route path='/form' element={<TCTForm />} />
           <Route path='*' element={<PageNotFound />} />
 
         </Routes>
